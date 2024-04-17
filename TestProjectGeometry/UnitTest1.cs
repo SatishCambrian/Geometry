@@ -37,7 +37,7 @@ namespace TestProjectGeometry
         {
             var rectangle = new Rectangle(10, 5);
             var result= rectangle.CalculatePerimeter();
-            Assert.AreEqual(, result);
+            Assert.AreEqual(30, result);
         }
 
     }
